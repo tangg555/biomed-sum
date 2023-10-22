@@ -1,0 +1,16 @@
+rouge_score
+transformers==4.27.4
+pytorch-lightning==1.9.5
+fairseq
+pandas
+jsonlines
+psutil
+pandas
+sacrebleu
+scipy
+py-readability-metrics
+bert_score
+
+# These should be installed from the homepage
+# pytorch==1.13.0
+# dgl cuda 11.7 version
