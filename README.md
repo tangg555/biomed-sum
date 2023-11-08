@@ -1,6 +1,11 @@
 # Improving Biomedical Abstractive Summarisation with Knowledge Aggregation from Citation Papers
 
-This repository is the code and resources for the paper [Improving Biomedical Abstractive Summarisation with Knowledge Aggregation from Citation Papers](). 
+This repository is the code and resources for the paper [Improving Biomedical Abstractive Summarisation with Knowledge Aggregation from Citation Papers](@article{tang2023improving,
+  title={Improving Biomedical Abstractive Summarisation with Knowledge Aggregation from Citation Papers},
+  author={Tang, Chen and Wang, Shun and Goldsack, Tomas and Lin, Chenghua},
+  journal={arXiv preprint arXiv:2310.15684},
+  year={2023}
+}). 
 It has been accepted by EMNLP 2023.
 
 ## Instructions
@@ -85,6 +90,13 @@ Currently, we only have the arxiv citation:
 
 This is the arxiv citation:
 ```angular2
-
+@article{tang2023improving,
+  title={Improving Biomedical Abstractive Summarisation with Knowledge Aggregation from Citation Papers},
+  author={Tang, Chen and Wang, Shun and Goldsack, Tomas and Lin, Chenghua},
+  journal={arXiv preprint arXiv:2310.15684},
+  year={2023}
+}
 ```
+
+The "pdf" column in datasets are recorded with absolute paths. Thought this will not affect the experiments with our model, I suggest to run the ``preprocess`` code from scracth.
 
