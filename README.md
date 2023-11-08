@@ -83,6 +83,7 @@ python tasks/summarisation/test.py\
 In case you would like to set up the environment without changing local dependencies. 
 I suggest either creating a virtual python environment by [anaconda](https://www.anaconda.com/download) or pulling an related image with [docker](https://www.docker.com/products/docker-desktop/).
 
+The "pdf" column in datasets are recorded with absolute paths, but this will not affect the experiments with our model.
 
 ## Citation
 If you found this repository or paper is helpful to you, please cite our paper. 
@@ -98,5 +99,4 @@ This is the arxiv citation:
 }
 ```
 
-The "pdf" column in datasets are recorded with absolute paths. Thought this will not affect the experiments with our model, I suggest to run the ``preprocess`` code from scracth.
 
